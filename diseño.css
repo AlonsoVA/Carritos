@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family: "Signika Negative", sans-serif;
+}
+
+body{
+    text-align: center;
+    font-size: 1.2vw;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background-color: #D8D8D8;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo{
+    margin-left: 30px;
+}
+
+.header-logo {
+    margin-bottom: 10px; /* Espacio entre el logo y los botones */
+    display: flex;
+    justify-content: center;
+    max-width: 10vw;
+}
+
+.header-logo .Logo-button img {
+    height: 60px; /* Ajusta el tamaño del logo */
+    padding: 5px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: blue;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a{
+    display: block;
+    padding: 4px 6px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.navbar a:hover{
+    background: rgba(34, 70, 85, 0.2);
+    border-radius: 10px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    height: 60vh !important;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(luz.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.porscheazul{
+    background: no-repeat center;
+    background-size: cover;
+    height: 60vh !important;
+}
+
+.title{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+p{
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #934;
+    color: #fff;
+    text-decoration: none;
+    background: #934;
+}
+
+.btn:hover{
+    background: none;
+}
+
+.btn-home{
+    display: flex;
+}
+
+.btn-home a{
+    margin: 0 10px;
+}
+
+.content{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau{
+    padding: 30px;
+    background: #1f1d1d;
+}
+
+.box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box{
+    height: 11rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgb(0, 0, 0, .5);
+    margin: 2rem;
+}
+
+.box-container .box i{
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #9c27b0;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.box-container .box h3{
+    font-size: 20px;
+    color: #9c27b0;
+}
+
+.box-container .box p{
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.about{
+    background: #171717;
+}
+
+.contact{
+    padding-top: 20px;
+    background: #171717;
+    padding-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    
+    .title{
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau{
+        height: 120vh;
+    }
+
+    .navbar{
+        display: none;
+    }
+
+}
+
+.distrito{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.D1{
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.distrito:hover .D1 {
+    transform: scale(1.1) rotate(5deg);
+}
+
+.Login-buttonn{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000; /* Color del texto */
+    padding: 8px 9px;
+    border: 2px solid #fff; /* Color del borde */
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 10px;
+    background-color: burlywood;
+}
+
+.Login-buttonn span {
+    margin-right: 10px;
+}
+
+.Login-buttonn svg {
+    width: 10px;
+    height: 10px;
+    fill: currentColor;
+}
+
+.Login-buttonn:hover {
+    background-color: #BBBBBB; /* Color de fondo al pasar el cursor */
+    color: #fff; /* Color del texto al pasar el cursor */
+}
+
+.Login-buttonn:active {
+    background-color: #555; /* Color de fondo al hacer clic */
+}
+
+
+/* Estilo para pantallas grandes (monitores) */
+@media (min-width: 1200px) {
+    .content.header {
+        font-size: 1.5rem;
+    }
+    .box-container .distrito {
+        width: 30%;
+    }
+}
+
+/* Estilo para laptops */
+@media (min-width: 600px) and (max-width: 1199px) {
+    .content.header {
+        font-size: 1.3rem;
+    }
+    .box-container .distrito {
+        width: 45%;
+    }
+}
+
+/* Estilo para tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+    .content.header {
+        font-size: 1.2rem;
+    }
+    .box-container .distrito {
+        width: 60%;
+    }
+}
+
+/* Estilo para celulares */
+@media (max-width: 767px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .navbar a {
+        padding: 2vw;
+        font-size: 0.9rem; /* Tamaño de fuente ajustado en pantallas pequeñas */
+    }
+    .content.header {
+        font-size: 1rem;
+    }
+    .box-container .distrito {
+        width: 100%;
+    }
+}
