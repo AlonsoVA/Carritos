@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>
-            Home
-        </title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
         <link rel="stylesheet" href="diseño.css">
     </head>
 
@@ -19,7 +20,7 @@
         <div class="head">
 
             <div class="header-logo">
-                <a href="/cop" class="Logo-button">
+                <a href="#" class="Logo-button">
                     <img src="file (4).png" alt="Logo" class="Logo">
                 </a>
             </div>
@@ -54,21 +55,17 @@
 
         
         <header class="content header">
-            <h3 class="title">AV-Galery</h3>
+            <h3 class="title">Santa-clara</h3>
             <p>
-                Bienvenido
+                Casas diseñadas especialmente para ti
             </p>
             <p>
-                ¿Estas listo para crear tu propia galeria?
+                ¿Estas listo para conocer tu nuevo hogar?
             </p>
-
-            <!--<div class="btn-home">
-                <a href="/sUp" class="Login-buttonn">Registrarse</a>
-            </div>-->
         </header>
 
         <section class="content sau">
-            <h3 class="title">Lugares Para Fotografiar</h3>
+            <h1 class="title2">¿Que beneficios tienes?</h1>
             <p>
                 Los mejores lugares, para fotografiar carros y paisajes.
             </p>
@@ -96,17 +93,107 @@
         <section class="content about">
 
             <h2 class="title">
-                Nosotros
+                ¿Que beneficios se te ofrecen?
             </h2>
 
             <p>
-                La pagina Av-Galery te brinda dos catalagos, en los cuales podras subir fotos y si gustas las podras descargar. 
+                Las casas cuentan con un detallado excelente, aparte de los parques para los niños. 
             </p>
             <p>
-                Tienes la posibilidad de agregar tus fotos a favoritos, esto para no perder esas imagenes que tanto te encantaron.  
+                Esta la posibilidad de rentar la casa club, para adultos y niños, donde esta ambientada para cualquier tipo de evento.  
             </p>
 
-            <a href="https://www.instagram.com" class="Login-buttonn" target="_blank">Instagram</a>
+            <ul>
+                <li>
+                    2 parques
+                </li>
+                <li>
+                    1 Area para adultos
+                </li>
+                <li>
+                    1 Area para niños
+                </li>
+                <li>
+                    Contamos con casa club
+                </li>
+            </ul>
+
+        </section>
+
+        <section class="content about">
+
+            <h2 class="title">
+                Nuestras areas
+            </h2>
+
+            <div class="carousel">
+
+                <h2>Carousel</h2>
+
+                <div class="carrusel-list" id="carrusel-list">
+
+                    <button class="carrusel-arrow carrusel-prev" id="button-prev" data-button="button-prev"
+                    onclick="app.processingButton(event)">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left"
+                        class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 320 512">
+                        <path fill="currentColor"
+                            d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z">
+                        </path>
+                    </svg>
+                    </button>
+
+                    <div class="carrusel-track" id="track">
+
+                        <div class="carrusel">
+                            <div>
+                                <a>
+                                    <h4><small>Imagen</small> Mas </h4>
+                                    <picture>
+                                        <img src="Imganes/1.jpg" alt="imagen">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="carrusel">
+                            <div>
+                                <a>
+                                    <h4><small>Imagen</small> Mas </h4>
+                                    <picture>
+                                        <img src="Imganes/1.jpg" alt="imagen">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="carrusel">
+                            <div>
+                                <a>
+                                    <h4><small>Imagen</small> Mas </h4>
+                                    <picture>
+                                        <img src="Imganes/1.jpg" alt="imagen">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+    
+                </div>
+
+                <button class="carrusel-arrow carrusel-next" id="button-next" data-button="button-next"
+                onclick="app.processingButton(event)">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
+                    class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 320 512">
+                    <path fill="currentColor"
+                        d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z">
+                    </path>
+                </svg>
+            </button>
+
+            </div>
 
         </section>
 
