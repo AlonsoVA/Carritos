@@ -425,6 +425,4 @@ a{
 .carrusel-next{
     right: 10px; /* Ajusta según el margen que desees */
     top: 50%;    /* Centra verticalmente el botón */
-    transform: translateY(+6000%);
-    transform: translatex(-3200%);
 }

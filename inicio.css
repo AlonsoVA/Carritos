@@ -1,0 +1,26 @@
+.Descripcion{
+    background-color: #C4DAD2;
+    height: 390px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+.Imagen1{
+    width: 500px;
+    height: auto;
+    padding: 20px;
+    border-radius: 10%;
+}
+.Lista{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.header-in{
+    background-color: blueviolet;
+    margin: 10px;
+}
